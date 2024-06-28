@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
 
 st.text('Panji DS Site Testing Streamlit tesss')
 
