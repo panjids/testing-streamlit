@@ -3,17 +3,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-"""
-# Welcome to Streamlit!
+num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:.
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
-In the meantime, below is an example of what you can do with just a few lines of code:
-"""
-
-st.text('Panji DS Site Testing Streamlit')
+st.text('Panji DS Site Testing Streamlit tesss')
 
 
 num_points = st.slider("Number of points in spiral", 1, 10000, 1100)
